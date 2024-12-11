@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora las maravillas del mundo, sus historias y curiosidades.">
+    <meta name="keywords" content="maravillas del mundo, historia, turismo, lugares famosos">
+    <meta name="author" content="Tu Nombre">
+    <title>Las Maravillas del Mundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #eef2f3;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #5d54a4, #a3c4f3);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        nav {
+            background: #5d54a4;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #5d54a4;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Las Maravillas del Mundo</h1>
+        <p>Explora los lugares más increíbles de nuestro planeta.</p>
+    </header>
+    
+    <nav>
+        <a href="#antiguas">Antiguas</a>
+        <a href="#modernas">Modernas</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <main>
+        <section id="antiguas">
+            <h2>Las Siete Maravillas del Mundo Antiguo</h2>
+            <p>Las maravillas del mundo antiguo son un conjunto de monumentos excepcionales que asombraron al mundo antiguo:</p>
+            <ul>
+                <li>La Gran Pirámide de Guiza (Egipto).</li>
+                <li>Los Jardines Colgantes de Babilonia (Irak).</li>
+                <li>El Templo de Artemisa en Éfeso (Turquía).</li>
+                <li>La Estatua de Zeus en Olimpia (Grecia).</li>
+                <li>El Mausoleo de Halicarnaso (Turquía).</li>
+                <li>El Coloso de Rodas (Grecia).</li>
+                <li>El Faro de Alejandría (Egipto).</li>
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Pyramide_Kheops.JPG" alt="Gran Pirámide de Guiza">
+        </section>
+        
+        <section id="modernas">
+            <h2>Las Siete Maravillas del Mundo Moderno</h2>
+            <p>En 2007, una votación global seleccionó las maravillas modernas:</p>
+            <ul>
+                <li>Chichén Itzá (México).</li>
+                <li>El Coliseo (Italia).</li>
+                <li>El Cristo Redentor (Brasil).</li>
+                <li>La Gran Muralla China (China).</li>
+                <li>Machu Picchu (Perú).</li>
+                <li>Petra (Jordania).</li>
+                <li>El Taj Mahal (India).</li>
+            </ul>
+            <iframe src="https://www.youtube.com/embed/f5PqqWC8OYo" title="Video sobre las maravillas modernas"></iframe>
+        </section>
+        
+        <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <p>¿Sabías que?</p>
+            <ul>
+                <li>La Gran Pirámide de Guiza es la única maravilla antigua que aún existe.</li>
+                <li>La Gran Muralla China es visible desde el espacio, aunque no a simple vista.</li>
+                <li>Machu Picchu fue redescubierto en 1911 por Hiram Bingham.</li>
+            </ul>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Las Maravillas del Mundo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
